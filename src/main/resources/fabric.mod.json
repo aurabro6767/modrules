@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "modrules",
+  "version": "${version}",
+  "name": "ModRules",
+  "description": "Помощник модератора: наказания по пунктам правил.",
+  "environment": "client",
+  "entrypoints": { "client": ["kz.modrules.ModRulesClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
